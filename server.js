@@ -13,6 +13,14 @@ app.get('/Science', function(req,res){
     res.send('Science Course one will be served here');
 });
 
+app.get('/Arts', function(req,res){
+    res.send('Arts Course one will be served here');
+});
+
+app.get('/Commerce', function(req,res){
+    res.send('Commerce Course one will be served here');
+});
+
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
